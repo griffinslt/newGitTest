@@ -1,0 +1,20 @@
+git clone https://github.com/griffinslt/newGitTest.git
+git status # this says what is different between the repository on the machine and the internet
+git add gitTest.py
+git status
+git commit -m "added gitTest.py" #the change was added but it must be committed to the repository
+#this is not synced online yet
+git push  #this syncs the machine and github.com
+git pull #opposite to push
+git add -A #adds all
+These commands only work inside the repository
+
+
+commit changes every small change
+
+sync every few hours to make sure there are no major changes
+if there a conflict, when you sync you manually manage the conflict
+
+if make a mistake and are stuck use "esc:wq"
+if you commit without a -m it is for a multi-line message "esc:wq"  is to exit
+This
